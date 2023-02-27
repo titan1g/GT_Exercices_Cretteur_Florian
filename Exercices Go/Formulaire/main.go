@@ -11,9 +11,7 @@ func main() {
 		if r.Method == "POST" {
 			name := r.FormValue("name")
 			email := r.FormValue("email")
-			age := r.FormValue("âge")
-
-			fmt.Printf("Name: %s\nEmail: %s\n", name, email, age)
+			fmt.Printf("Name: %s\nEmail: %s\n", name, email)
 		}
 		fmt.Fprint(w, "<html><body><form method='post'><label for='name'>Name:</label><input type='text' name='name'><br><label for='email'>Email:</label><input type='email' name='email'><br><input type='submit' value='Submit'></form></body></html>")
 	})

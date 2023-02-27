@@ -1,0 +1,53 @@
+
+  
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    background-color: rgb(22, 20, 194);
+  }
+  
+  
+  .NavBar_logo {
+    margin-right: auto;
+  }
+  
+  .logo {
+    height: 5rem;
+    margin: 5px;
+  }
+  
+  .NavBar_lien {
+    list-style: none;
+  }
+  
+  .NavBar_lien li {
+    display: inline-block;
+    padding: 0 1.70rem;
+  }
+  
+  .NavBar_lien li a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    transition: all 0.5s ease 0s;
+    color: white;
+    background:
+      linear-gradient(
+        to right,
+        rgb(22, 20, 194),
+        rgb(22, 20, 194)
+      ),
+      linear-gradient(
+        to right,
+        rgb(0, 0, 0),
+        rgb(0, 0, 0),
+        rgb(0, 0, 0)
+    );
+
+    background-position: 100% 100%, 100% 100%;
+    background-repeat: no-repeat;
+   
+  }
+  
